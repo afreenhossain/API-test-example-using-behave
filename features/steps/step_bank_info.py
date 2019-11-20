@@ -9,7 +9,7 @@ from config import CONFIG
 
 
 @given('A user makes a request to the endpoint "{endpoint}"')
-def set_url(context, endpoint):
+def set_endpoint(context, endpoint):
     context.endpoint = endpoint
 
 
