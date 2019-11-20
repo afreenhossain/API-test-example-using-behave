@@ -2,9 +2,8 @@
 API testing using python's [behave](https://github.com/behave/behave) library
 
 ## Requirements
-1. OS: linux or mac
-2. python3
-3. (optional). Virtual environment for the project. I personally use [this](https://github.com/pyenv) along with [that](https://github.com/pyenv/pyenv-virtualenv)
+1. Python 3.x.x. ([here](https://realpython.com/installing-python/#step-2-run-the-installer) is a documentation for different OS)
+3. (optional). Virtual environment for the project. I personally use [pyenv](https://github.com/pyenv) along with [virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 
 ## Setup
 1. Install requirements
