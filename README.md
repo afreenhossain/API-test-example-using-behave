@@ -1,16 +1,26 @@
 # API-test-example-using-behave
-API testing using python's behave library
+API testing using python's [behave](https://github.com/behave/behave) library
+
+## Requirements
+1. OS: linux or mac
+2. python3
+3. (optional). Virtual environment for the project. I personally use [this](https://github.com/pyenv) along with [that](https://github.com/pyenv/pyenv-virtualenv)
 
 ## Setup
-- Download and install python 3
-- Add python3 and pip in the path
-- Run the command "pip install -r requirements.txt", this will install all the requirements
-
-## Setting base url
-- Add a .end file, and add the value BASE_URL=http://preview.airwallex.com:30001 there
-- This is to ensure that the url is configurable whenever needed
+1. Install requirements
+```bash
+pip install -r requirements.txt
+```
+2. Setting base URL.
+ Copy `sample_env` file and save it as `.env` in the same directory. Then replace `BASE_URL` with desired server URL.
 
 ## Running
-- Go to the repo
-- In terminal/ cmd run "behave"
-- This should show all the passed and failed steps
+```bash
+behave
+```
+For more details go [here](https://github.com/behave/behave)
+
+Alternatively you can run without a `.env` file if you set the BASE_URL in the OS environment as variable. So the following will also work,
+```bash
+BASE_URL=http://preview.airwallex.com:30001 behave
+```
