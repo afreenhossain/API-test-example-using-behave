@@ -1,5 +1,6 @@
-requests
-behave
 assertpy
+behave
 environs
+parse
+requests
 
