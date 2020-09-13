@@ -21,5 +21,5 @@ For more details go [here](https://github.com/behave/behave)
 
 Alternatively you can run without a `.env` file if you set the BASE_URL in the OS environment as variable. So the following will also work,
 ```bash
-BASE_URL=http://preview.airwallex.com:30001 behave
+BASE_URL=http://test.com:30001 behave
 ```
